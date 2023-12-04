@@ -15,18 +15,19 @@
     --negro: #000000;
 }
 
-a {
-    text-decoration: none;
-}
-
 header{
     position: sticky;
     top: 0px;
     z-index: 1;
     backdrop-filter: blur(10px);
 }
-header li a{
+.style-nav{ 
+    color: var(--negro);
     font-family: var(--fuentePrimaria);
+    text-decoration: underline var(--negro);
+}
+.style-nav:hover{
+    text-decoration: underline wavy var(--primario);
 }
 .main-index_bg{
     background-image: url(../img/bg-body.webp);
