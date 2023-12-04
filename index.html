@@ -10,13 +10,39 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
   <title>Document</title>
 </head>
 
 <body>
+
+  <div id="carouselExampleInterval" class="carousel slide bg vh" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active bg1" data-bs-interval="3000">
+        <img src="./cupcake-3723832_1280.jpg" class="d-block mx-auto imagen-carrusel" alt="...">
+      </div>
+
+      <div class="carousel-item bg2" data-bs-interval="3000">
+        <img src="./conjunto-3-bonitos-cupcakes-flores-colores-pastel-sobre-fondo-blanco_980104-75.jpg"
+          class="d-block mx-auto imagen-carrusel" alt="...">
+      </div>
+
+      <div class="carousel-item bg3" data-bs-interval="3000">
+        <img src="./muffins-2225091_1280.jpg" class="d-block mx-auto imagen-carrusel" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
   <header>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
@@ -31,13 +57,13 @@
               <a class="nav-link" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">Tienda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">Contacto</a>
             </li>
           </ul>
         </div>
@@ -46,38 +72,16 @@
   </header>
 
   <main>
-    <div id="carouselExample" class="carousel slide bg vh">
-      <div class="carousel-inner">
-        <div class="carousel-item active bg1">
-          <img src="./img/img carrousel 1.png" class="d-block mx-auto" style="width: 250px;" alt="...">
-        </div>
-        <div class="carousel-item bg2">
-          <img src="./img/img carrousel 2.png" class="d-block mx-auto" style="width: 250px;" alt="...">
-        </div>
-        <div class="carousel-item bg3">
-          <img src="./img/img carrousel 3.png" class="d-block mx-auto" style="width: 250px;" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
 
     <div class="container text-center mt-5">
       <div class="row">
         <div class="col-sm-6 col-12 mb-3">
-          <h1>Lorem ipsum dolor sit.</h1>
+          <h1 class="titulo-primario">Hecho con Amor</h1>
         </div>
         <div class="col-sm-6 col-12">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic modi minima labore quis at deserunt. Lorem
-            ipsum dolor sit amet consectetur, adipisicing elit. Architecto, amet eos beatae quibusdam minus consequatur
-            unde ipsa laborum cumque accusamus quo dignissimos sapiente! Eveniet laboriosam, incidunt illum at tenetur
-            veritatis?</p>
+          <p class="parrafo-primario">Nuestros cupcakes son pequeñas delicias que encantan a todos. Con sus suaves y
+            esponjosos bizcochos coronados por cremosos glaseados, son la elección perfecta para endulzar cualquier
+            ocasión con su irresistible sabor.</p>
         </div>
       </div>
     </div>
@@ -102,7 +106,7 @@
 
   </main>
 
-  <footer class="bg-body-secondary mt-5">
+  <footer class="bg-footer mt-5">
     <div class="container text-center">
       <div class="row">
         <div class="col-sm-4 col-12 mt-3 mb-3">
@@ -113,14 +117,14 @@
           <div class="input-group mt-5">
             <input type="text" class="form-control" placeholder="E-mail" aria-label="Recipient's username"
               aria-describedby="basic-addon2">
-            <button type="submit" class="btn btn-primary">Suscribete!</button>
+            <button type="submit" class="btn btn-style">Suscribete!</button>
           </div>
         </div>
 
-        <div class="col-sm-4 col-12 mt-3 mb-3">
-          <a href="./index.html"><img src="./img/Card1.png" width="50px" alt=""></a>
-          <a href="./index.html"><img src="./img/card 2.png" width="50px" alt=""></a>
-          <a href="./index.html"><img src="./img/card 3.png" width="50px" alt=""></a>
+        <div class="col-sm-4 col-12 mt-5 mb-3">
+          <a href="./index.html"><img src="./instagram_f_icon-icons.com_65485.png" width="30px" alt=""></a>
+          <a href="./index.html"><img src="./social_Pinterest_8.png" width="30px" alt=""></a>
+          <a href="./index.html"><img src="./whatsapp_icon-icons.com_65489.png" width="30px" alt=""></a>
         </div>
       </div>
     </div>

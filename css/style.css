@@ -6,7 +6,7 @@
 
 :root{
     --fuentePrimaria: 'Agbalumo';
-    --fuenteSecundaria: 'Acme', sans-serif;
+    --fuenteSecundaria: 'Kalam', cursive;
 
     --primario: #F585A9;
     --Secundario: #C3D0DF;
@@ -18,26 +18,42 @@
 a {
     text-decoration: none;
 }
+
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    backdrop-filter: blur(10px);
+}
+header li a{
+    font-family: var(--fuentePrimaria);
+}
 .main-index_bg{
     background-image: url(../img/bg-body.webp);
 }
-
-.bg1{
-    background-color: #F585A9;
-    height: 75vh;
+.titulo-primario{
+    font-family: var(--fuentePrimaria);
+    font-size: 5rem;
+    color: var(--primario);
 }
-.bg2{
-    background-color:#C3D0DF;
-    height: 75vh;
+.parrafo-primario{
+    font-family: var(--fuenteSecundaria);
+    font-size: 2rem;
 }
-.bg3{
-    background-color: aqua;
-    height: 75vh;
-}
-
 .img-style{
     height: 60vh;
 }
 .card-border{
     border: none;
+}
+.imagen-carrusel{
+    width: 100vw;
+    height: 100vh;
+}
+.bg-footer{
+    background-color: var(--Secundario);
+}
+.btn-style{
+    font-family: var(--fuentePrimaria);
+    background-color: var(--primario);
 }
