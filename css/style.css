@@ -3,3 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --fuentePrimaria: 'Agbalumo';
+    --fuenteSecundaria: 'Acme', sans-serif;
+
+    --primario: #F585A9;
+    --Secundario: #C3D0DF;
+    --gris: #e1e1e1;
+    --blanco: #ffffff;
+    --negro: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+.main-index_bg{
+    background-image: url(../img/bg-body.webp);
+}
+
+.bg1{
+    background-color: #F585A9;
+    height: 75vh;
+}
+.bg2{
+    background-color:#C3D0DF;
+    height: 75vh;
+}
+.bg3{
+    background-color: aqua;
+    height: 75vh;
+}
+
+.img-style{
+    height: 60vh;
+}
+.card-border{
+    border: none;
+}
