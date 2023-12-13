@@ -52,8 +52,8 @@ header {
 }
 
 .imagen-carrusel {
-    max-width: 100%;
-    max-height: 100vh;
+    max-width: 50%;
+    max-height: 50vh;
 }
 
 @media (min-width: 768px) {
@@ -76,6 +76,10 @@ header {
 .btn-style {
     font-family: var(--fuentePrimaria);
     background-color: var(--primario);
+}
+.btn-style:hover{
+    background-color: var(--negro);
+    color: var(--primario);
 }
 
 /*TIENDA*/
@@ -106,7 +110,7 @@ header {
 
 .btn-card {
     font-family: var(--fuenteSecundaria);
-    background: linear-gradient(90deg, #F585A9 0%, #C3D0DF 100%);
+    background: linear-gradient(90deg, #C3D0DF 0%,#F585A9 100%);
     color: var(--negro);
     font-weight: 700;
     box-shadow: 5px 4px 7px 2px #8f8f8f;
@@ -115,4 +119,21 @@ header {
 
 .btn-card:hover {
     color: #fff
+}
+
+/*CONTACTO*/
+
+.bg-body_contact {
+    background-image: url(../cupcake-3723832_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.bg-form{
+    background-color: rgba(0, 0, 0, 0.541);
+}
+.text-titulo_form{
+    font-family: var(--fuentePrimaria);
+    color: var(--primario);
 }
