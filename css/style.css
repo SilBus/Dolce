@@ -137,3 +137,20 @@ header {
     font-family: var(--fuentePrimaria);
     color: var(--primario);
 }
+@media (max-width: 540px) {
+    .style-margin{
+        margin-top: 1rem;
+    }
+}
+
+.style-buttom_form{
+    font-family: var(--fuentePrimaria);
+    color: rgb(59, 59, 59);
+    background-color: var(--primario);
+    font-size: 1rem;
+    border: 0;
+}
+.style-buttom_form:hover{
+    color: var(--primario);
+    background-color: rgb(59, 59, 59);
+}
